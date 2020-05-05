@@ -1,22 +1,29 @@
 import React from "react"
 
-const AboutUs = () =>{
+const AboutUs = ()=>{
     return(
-        <div className="aboutus-section">
-            <section className="section">
-                <div className="container aboutus-background">
-                    <h1 className="title">Quienes somos</h1>
-                    <h2 className="subtitle">
-                        El lujoso spa en Orogold,en México, ofrece un refugio sublime en pleno corazón de la ciudad.
-                    </h2>
-                    <h2>Los huéspedes pueden disfrutar de un gimnasio de última generación, una relajante sauna o duchas
-                    a chorro durante su escapada de 5 estrellas en nuestro hotel boutique en París. Por otra parte, nuestra
-                    nueva asociación con ZEAL COSMETICS asegura la disponibilidad de una gama de relajantes tratamientos faciles y corporales para mimarse y revitalizarse.</h2>
-                </div>
+        <div className="hero ">
+            <section className="hero  is-medium  is-bold aboutus-background">
+                <div className="hero-body">
+                    <div className="container">
+                        <div className="has-text-centered" >
+                            <div>
+                                <h1 className=" title is-size-1 has-text-warning has-text-weight-bold is-uppercase">Quienes somos</h1>
+                                <p className=" subtitle  has-text-white has-text-weight-bold ">
+                                    El lujoso spa en Orogold, en México, ofrece un refugio sublime en pleno corazón de la ciudad. <br/> van de la mano
+                                </p>
+                                <p className="subtitle is-5 has-text-white has-text-weight-bold">
+                                    Los huéspedes pueden disfrutar de un gimnasio de última generación, una relajante sauna o duchas a <br/> chorro durante su escapada de 5 estrellas en nuestro hotel bouteque en París. Por otra parte, nuestra <br/> nueva asociación con
+                                    ZEAL COSMETICS  asegura la disponibilidad de una gama de relajantes <br/> tratamientos faciales y corporales para mimarse y revitalizarse.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
+                    </div>
+        
             </section>
         </div>
-
-    )
+)
 };
 export default AboutUs;

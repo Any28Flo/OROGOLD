@@ -32,4 +32,7 @@ code {
 
   background-size:  cover;
   background-color: #999;
-}
+};
+.custom-height{
+  height: 6em;
+};
