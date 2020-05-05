@@ -9,7 +9,6 @@ class AppointmentService {
         this.service = service;
     }
     create = (username,email,phone) =>{
-        console.log(`service-${username},${email},${phone}`);
         return this.service.post('/create',{username, email, phone})
         .then(response => response)
     };

@@ -13,7 +13,6 @@ const Form = () =>  {
     const MySwal = withReactContent(Swal);
 
     const handleFormSubmit = e =>{
-        console.log("hola")
        appointmentService.create(name,email,phone)
             .then(response =>{
                 if(response.status === 200){

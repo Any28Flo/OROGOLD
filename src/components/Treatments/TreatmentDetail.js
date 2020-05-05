@@ -1,7 +1,6 @@
 import React from "react"
 
 const TreatmentDetail = (props) =>{
-    console.log(props);
     const {title,description, icon} = props.details;
     return(
         <div className="column">
@@ -9,7 +8,9 @@ const TreatmentDetail = (props) =>{
                 <div className="card-image">
                     <figure className="image is-4by3">
                         <img className="is-circular"
-                             src={icon}/>
+                             src={icon}
+                             alt="treatmen-detal"
+                        />
 
                     </figure>
                 </div>
@@ -27,8 +28,7 @@ const TreatmentDetail = (props) =>{
                 </div>
             </div>
         </div>
-    )
-        ;
+    );
 
 };
 

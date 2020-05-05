@@ -1,6 +1,4 @@
 import React from "react"
-import {treatments} from "../Treatments/treatments-data";
-import TreatmentDetail from "../Treatments/TreatmentDetail";
 
 const AboutUs = () =>{
     return(
