@@ -15,7 +15,7 @@ code {
   background-color: #000000;
 }
 .bg-img{
-  background-image: url("./../src/images/bg-principal.jpg") ;
+  background-image: url("images/bg-principal.jpg") ;
   background-position: center center;
   background-repeat:  no-repeat;
   background-attachment: fixed;

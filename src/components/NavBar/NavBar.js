@@ -1,7 +1,7 @@
 import React from "react";
 import 'bulma/css/bulma.css'
 import './../../App.css'
-import Logo from "./../../images/cropped-orogold-logo-dgold.png"
+import Logo from "../../images/cropped-orogold-logo-dgold.png"
 const NavBar = () =>{
     return(
         <div className="nav">
