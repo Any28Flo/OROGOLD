@@ -8,9 +8,11 @@
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
     "bulma": "^0.8.2",
+    "bulma-carousel": "^4.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
+    "react-whirligig": "^6.6.4",
     "serve": "^11.3.0",
     "sweetalert2-react": "^0.8.3",
     "sweetalert2-react-content": "^3.0.1"

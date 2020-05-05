@@ -32,7 +32,18 @@ code {
 
   background-size:  cover;
   background-color: #999;
-};
+}
 .custom-height{
   height: 6em;
-};
+}
+
+.img-carousel{
+  width: 100px;
+  height: 200px;
+  margin: 15px;
+  cursor: pointer;
+}
+img.active {
+  border-color: #ad343e;
+  opacity: 0.6;
+}

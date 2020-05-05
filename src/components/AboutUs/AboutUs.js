@@ -1,5 +1,5 @@
 import React from "react"
-
+import Carousel from "./Carousel";
 const AboutUs = ()=>{
     return(
         <div className="hero ">
@@ -22,6 +22,9 @@ const AboutUs = ()=>{
 
                     </div>
         
+            </section>
+            <section>
+                <Carousel/>
             </section>
         </div>
 )
