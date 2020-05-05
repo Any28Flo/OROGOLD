@@ -23,17 +23,24 @@ const Form = () =>  {
                         text : 'Cita agendada, exitosamente!!'
 
                     })
+                    updateForm();
                 }
             })
            .catch(e =>{
                MySwal.fire({
                    icon: 'error',
                    title: 'Oops...',
-                   text: e.response.msg
+                   text: 'Un error ha ocurrido'
                })
+               updateForm();
            })
         
         
+    }
+    const updateForm = () =>{
+        setPhone("");
+        setName("");
+        setEmail("");
     }
     return(
         <div className="form">
