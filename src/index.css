@@ -25,3 +25,11 @@ code {
 .is-circular {
   border-radius: 35%;
 }
+.aboutus-background{
+  background-image: url("images/photo-1520473378652-85d9c4aee6cf.jpg") ;
+  background-position: center center;
+  background-repeat:  no-repeat;
+
+  background-size:  cover;
+  background-color: #999;
+}
