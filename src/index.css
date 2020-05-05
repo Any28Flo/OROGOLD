@@ -14,3 +14,11 @@ code {
 .black{
   background-color: #000000;
 }
+.bg-img{
+  background-image: url("./../src/images/bg-principal.jpg") ;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  background-color: #999;
+}
