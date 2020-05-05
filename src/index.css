@@ -22,3 +22,6 @@ code {
   background-size:  cover;
   background-color: #999;
 }
+.is-circular {
+  border-radius: 35%;
+}
