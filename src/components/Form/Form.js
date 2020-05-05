@@ -1,20 +1,37 @@
 import React, {useState} from "react"
 import AppointmentService from "./../../services/appointment-service";
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
+
+
 const Form = () =>  {
     const appointmentService = new AppointmentService();
 
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [phone, setPhone] = useState("");
+    const MySwal = withReactContent(Swal);
 
     const handleFormSubmit = e =>{
         console.log("hola")
        appointmentService.create(name,email,phone)
             .then(response =>{
                 if(response.status === 200){
-                    console.log("sucess")
+                   MySwal.fire({
+                        icon: 'success',
+                        title :'Yay!',
+                        text : 'Cita agendada, exitosamente!!'
+
+                    })
                 }
             })
+           .catch(e =>{
+               MySwal.fire({
+                   icon: 'error',
+                   title: 'Oops...',
+                   text: e.response.msg
+               })
+           })
         
         
     }
