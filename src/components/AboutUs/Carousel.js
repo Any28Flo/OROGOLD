@@ -21,6 +21,20 @@ class Carousel extends  React.Component{
         })
     };
 
+    setNextImage = () => {
+        // setState method is used to update the state
+        let index = this.state.active;
+        const length = this.state.photos.length;
+        if(index === length) {
+            index = 0;
+            this.setState(this.state.active === 0);
+        }
+    };
+    componentDidUpdate(prevProps, prevState, snapshot) {
+        setTimeout(this.setNextImage, 2000);
+    }
+
+
     render() {
         const { photos, active} = this. state;
 
@@ -29,11 +43,12 @@ class Carousel extends  React.Component{
             <div className="">
                 <div className="columns">
                     {
-                        photos.map((photo, index) =>(
+                        photos.map((photo, index) => {
+                            return(
                             //eslint-disable-next-line
-                            <figure key ={`carousel-img-${index}`} className=" column image  is-128x128">
+                            <figure key={`carousel-img-${index}`} className=" column image  is-128x128">
                                 <img
-                                    style={{height:200}}
+                                    style={{height: 200}}
                                     className="img-carousel"
                                     key={photo}
                                     onClick={this.handleIndexClick}
@@ -45,7 +60,7 @@ class Carousel extends  React.Component{
                             </figure>
 
 
-                        ))
+                            ) })
                     }
                 </div>
             </div>
