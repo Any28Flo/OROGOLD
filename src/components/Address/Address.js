@@ -23,8 +23,6 @@ const Address = () =>{
                                     <h2 className="title is-uppercase">Dirección</h2>
                                     <p>Av. Insurgentes Sur 105, Roma Sur, Cuahtémoc, 06600 Ciudad de México, CDMX, México</p>
                                     <button className="button is-large ">Ver en mapa</button>
-
-
                                 </div>
                             </div>
                         </div>
