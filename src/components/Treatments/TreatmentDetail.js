@@ -6,8 +6,8 @@ const TreatmentDetail = (props) =>{
         <div className="column">
             <div className="card">
                 <div className="card-image">
-                    <figure className="image is-4by3">
-                        <img className="is-circular"
+                    <figure className="image is-128x128">
+                        <img className="is-rounded"
                              src={icon}
                              alt="treatmen-detal"
                         />

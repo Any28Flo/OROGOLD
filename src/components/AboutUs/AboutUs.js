@@ -23,8 +23,11 @@ const AboutUs = ()=>{
                     </div>
         
             </section>
-            <section>
-                <Carousel/>
+            <section className="hero  is-medium">
+                <div className="hero-body">
+
+                    <Carousel/>
+                </div>
             </section>
         </div>
 )
