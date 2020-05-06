@@ -1,5 +1,5 @@
 
-![cryptoWallet](./public/images/cropped-orogold-logo-dgold.png)
+![orogold](./public/images/cropped-orogold-logo-dgold.png)
 
 <h4 align="center">Orogold es una landing page creada con React como reto técnico para Novatec</h4>
 
