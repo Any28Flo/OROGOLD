@@ -7,9 +7,8 @@
 <p align="center">
   <a href="#key-features"> Getting Started </a> •
   <a href="#technologies"> Developed With </a> •
-  <a href="#how-to-use"> How to use </a> •
   <a href="#credits"> Developed by </a> •
-  <a href="#credits"> Credits </a> 
+ 
 </p>
 <br>
 
